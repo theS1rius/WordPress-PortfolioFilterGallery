@@ -1,0 +1,2 @@
+# WordPress-PortfolioFilterGallery
+WordPress外掛Portfolio Filter Gallery介面繁體中文化
