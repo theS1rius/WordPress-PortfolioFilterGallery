@@ -813,7 +813,7 @@ echo "</pre>";*/
 			</div>
 			<div class="bhoechie-tab-content">
 				<h1>
-					<?php _e('Filters Settings', 'portfolio-filter-gallery'); ?>
+					<?php _e('篩選器設置', 'portfolio-filter-gallery'); ?>
 				</h1>
 
 
@@ -822,10 +822,10 @@ echo "</pre>";*/
 					<div class="col-md-4">
 						<div class="ma_field_discription">
 							<h4>
-								<?php _e('Hide Filters', 'portfolio-filter-gallery'); ?>
+								<?php _e('隱藏篩選器', 'portfolio-filter-gallery'); ?>
 							</h4>
 							<p>
-								<?php _e('Hide filters', 'portfolio-filter-gallery'); ?>
+								<?php _e('隱藏篩選器', 'portfolio-filter-gallery'); ?>
 							</p>
 						</div>
 					</div>
@@ -839,12 +839,12 @@ echo "</pre>";*/
 								<input type="radio" name="hide_filters" id="hide_filters1" value="1" <?php if ($hide_filters == 1)
 									echo "checked=checked"; ?>>
 								<label for="hide_filters1">
-									<?php _e('Yes', 'portfolio-filter-gallery'); ?>
+									<?php _e('是', 'portfolio-filter-gallery'); ?>
 								</label>
 								<input type="radio" name="hide_filters" id="hide_filters2" value="0" <?php if ($hide_filters == 0)
 									echo "checked=checked"; ?>>
 								<label for="hide_filters2">
-									<?php _e('No', 'portfolio-filter-gallery'); ?>
+									<?php _e('否', 'portfolio-filter-gallery'); ?>
 								</label>
 							</p>
 						</div>

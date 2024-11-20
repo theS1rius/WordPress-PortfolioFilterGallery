@@ -214,20 +214,20 @@ if (!class_exists('Awl_Portfolio_Filter_Gallery')) {
 
 		public function Portfolio_Filter_Gallery() {
 			$labels = array(
-				'name' => _x('作品集篩選畫廊', 'Post Type General Name', 'portfolio-filter-gallery'),
-				'singular_name' => _x('作品集篩選畫廊', 'Post Type Singular Name', 'portfolio-filter-gallery'),
-				'menu_name' => __('作品集畫廊', 'portfolio-filter-gallery'),
+				'name' => _x('作品集管理', 'Post Type General Name', 'portfolio-filter-gallery'),
+				'singular_name' => _x('作品集管理', 'Post Type Singular Name', 'portfolio-filter-gallery'),
+				'menu_name' => __('作品集系統', 'portfolio-filter-gallery'),
 				'name_admin_bar' => __('作品集篩選', 'portfolio-filter-gallery'),
 				'parent_item_colon' => __('母物件:', 'portfolio-filter-gallery'),
 				'all_items' => __('全部作品集', 'portfolio-filter-gallery'),
 				'add_new_item' => __('新增作品集', 'portfolio-filter-gallery'),
 				'add_new' => __('新增作品集', 'portfolio-filter-gallery'),
-				'new_item' => __('新作品集篩選畫廊', 'portfolio-filter-gallery'),
-				'edit_item' => __('編輯作品集篩選畫廊', 'portfolio-filter-gallery'),
-				'update_item' => __('更新作品集篩選畫廊', 'portfolio-filter-gallery'),
-				'search_items' => __('搜尋作品集篩選畫廊', 'portfolio-filter-gallery'),
-				'not_found' => __('找不到作品集篩選畫廊', 'portfolio-filter-gallery'),
-				'not_found_in_trash' => __('在垃圾桶中找不到作品集篩選畫廊', 'portfolio-filter-gallery'),
+				'new_item' => __('新作品集', 'portfolio-filter-gallery'),
+				'edit_item' => __('編輯作品集', 'portfolio-filter-gallery'),
+				'update_item' => __('更新作品集', 'portfolio-filter-gallery'),
+				'search_items' => __('搜尋作品集', 'portfolio-filter-gallery'),
+				'not_found' => __('找不到作品集', 'portfolio-filter-gallery'),
+				'not_found_in_trash' => __('在垃圾桶中找不到作品集', 'portfolio-filter-gallery'),
 			);
 			$args = array (
 				'label' => __('Portfolio Filter Gallery', 'portfolio-filter-gallery'),
